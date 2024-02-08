@@ -1,0 +1,147 @@
+/* CSS code goes here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+nav a {
+    color: #faf7f7de;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: yellow;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav {
+    background-color: #a138dd;
+    color: #b1b8b3;text-align: center;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+header {
+    background-color: #a138dd;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+.hero h1 {
+    font-size: 36px;
+    color: #000000cb;
+}
+.hero p {
+    font-size: 18px;
+    color: #666666;
+    margin: 20px 0;
+}
+.hero img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.hero button {
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.hero button:hover {
+    background-color: #666;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+section {
+    padding: 100em;
+}
+.feature {
+    flex: 1 1 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+.feature h3 {
+    font-size: 24px;
+    color: #3a3939;
+}
+.feature p {
+    font-size: 18px;
+    color: #525252;
+}
+.feature img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+}
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: hsl(268, 67%, 63%);
+}
+.testimonial {
+    flex: 1 1 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: white;
+}
+.testimonial p {
+    font-size: 18px;
+    color: #333;
+    font-style: italic;
+}
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.testimonial span {
+    display: block;
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+footer {
+    background-color: #fafafa;
+    color: #000000;
+    text-align: center;
+    padding: 1em;
+}
+footer i.fa {
+    color: #a138dd; 
+    font-size: 24px;
+} 
+    
